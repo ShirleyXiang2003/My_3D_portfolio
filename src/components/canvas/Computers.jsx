@@ -2,7 +2,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
-const Computers = () => {
+const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
     <mesh>
@@ -18,8 +18,8 @@ const Computers = () => {
       />
       <primitive 
         object={computer.scene} 
-        scale={3.5}
-        position={[-3, -2.25, -1]}
+        scale={ isMobile ? 2.5 : 3}
+        position={ isMobile? [-5, -2, -2.2] : [-3, -2.25, -1]}
         rotation={[100, 100, 100]}
       />
     </mesh>
@@ -31,7 +31,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -63,7 +63,7 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2} />
-        <Computers />
+        <Computers isMobile={isMobile}/>
       </Suspense>
       <Preload all />
     </Canvas>
