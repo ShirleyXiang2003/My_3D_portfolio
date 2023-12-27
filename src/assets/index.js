@@ -24,7 +24,12 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import githubc from "./company/githubc.png";
+import nyu from "./company/nyu.png";
+import bytedance from "./company/bytedance.png";
 import tesla from "./company/tesla.png";
+import hymake from "./company/hymake.png";
+import pengbin from "./company/Pengbin.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,8 +58,13 @@ export {
   typescript,
   threejs,
   meta,
+  bytedance,
+  nyu,
   shopify,
+  hymake,
+  pengbin,
   starbucks,
+  githubc,
   tesla,
   carrent,
   jobit,

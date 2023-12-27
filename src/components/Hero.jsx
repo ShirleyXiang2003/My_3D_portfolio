@@ -5,17 +5,17 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen max-auto">
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
-        <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#5bb9f0]" />
+      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 mt-5`}>
+        <div className="flex flex-col justify-center items-center mt-[100px]">
+          <div className="w-5 h-5 rounded-full bg-[#2b1005]" />
           <div className="w-1 sm:h-80 h-40 red-gradient" />
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#5bb9f0]">Zhushan</span>
+        <div className="mt-[100px]">
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#2b1005]">Zhushan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          My areas of interest include artificial intelligence, <br className="sm:block hidden" />
-          full-stack development...
+          What makes the desert beautiful is that somewhere it hides a well. <br className="sm:block hidden" />
+          Welcome to my world ...
           </p>
         </div>
       </div>

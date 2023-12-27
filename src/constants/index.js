@@ -15,10 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    bytedance,
+    githubc,
+    nyu,
+    hymake,
+    pengbin,
     carrent,
     jobit,
     tripguide,
@@ -46,11 +47,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Music Composer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Perfectionist",
       icon: backend,
     },
     {
@@ -116,55 +117,51 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      company_name: "MEAN Stack Social Media Platform",
+      icon: githubc,
+      iconBg: "#ffffff",
+      date: "Jul 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Frontend development involved creating an interactive and responsive user interface using HTML, CSS, and TypeScript within the Angular framework. For the backend, utilized Node.js with Express.js middleware, ensuring smooth communication between frontend and backend.",
+        "Employed MongoDB as the data schema, leveraging MongoDB Atlas for cloud-based configuration and data sharing.",
+        "Implemented essential functionalities, including user signup, login, authentication, and authorization.",
+        "Enabled users to create, read, update, and delete posts, complete with image uploads.",
+      ],
+    },
+    {
+      title: "IT Support Intern",
+      company_name: "ByteDance Ltd.",
+      icon: bytedance,
+      iconBg: "#ffffff",
+      date: "May 2023 - Sep 2023",
+      points: [
+        "Assisted Discord community users with technical problems, including fixing C#/Lua script bugs, uploading avatar and world models to the ParaSpace app, and modifying shaders, meshes, triangles, and blend shape counts.",
+        "Wrote API documentation, organized detailed instructions, and example code on how to optimize the avatar model, use prefab components such as Para Scene Environment and Para Avatar Pedestal, and handle issues related to Para Avatar SDK decompression failures.",
+        "Wrote Paraspace online boot camp plan and tutorial video script, including applying material/texture to a model, using ProBuilder to build a house frame, baking lightmaps, and post-processing a scene, increasing creator number by 10%.",
+      ],
+    },
+    {
+      title: "Research Assistant",
+      company_name: "Communication Networks Lab - NYU Abu Dhabi",
+      icon: nyu,
+      iconBg: "#ffffff",
+      date: "Jun 2022 - Feb 2023",
+      points: [
+        "Set up 64 cores and a 1TB MITM proxy server along with 50 Xiaomi Redmi smartphones.",
+        "Selected 500 webpages from Hispar, and another 500 webpages from Tranco. Used Python to crawl 1000 selected webpages, including login pages and internal pages, from the Chrome browser and cached on a dedicated proxy server.",
+        "Used time efficiency, memory usage, and functionality as measurement criteria to assess and compare the effectiveness of different web complexity solutions in a reproducible manner within real-world environments.",
+      ],
+    },
+    {
+      title: "Technical Management Trainee",
+      company_name: "Xiamen Hymake Technology Co., Ltd.",
+      icon: hymake,
+      iconBg: "#ffffff",
+      date: "Feb 2022 - Sep 2022",
+      points: [
+        "Designed the project workflow for the Engineering Cost Index Smart Application System using Xmind, coordinated with product development, testing, and business teams, assisted in scheduling the project, addressed risks in the development process, and ensured the on-time delivery and smooth deployment of requirements.",
+        "Used SQL to extract and analyze abnormal engineering cost data, performed inner joins on multiple data tables, applied row_number for data windowing, successfully identified over ten thousand instances of abnormal data in various scenarios, and provided feedback to the business side.",
       ],
     },
   ];
@@ -172,67 +169,67 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Zhushan is the best student this year.",
+      name: "Carlos Guedes",
+      designation: "Associate Professor of Music",
+      company: "NYU Abu Dhabi",
+      image: "https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/arts-and-humanities/faculty/carlos-guedes/jcr:content/bio-info/image.adaptive.m1651053589920/290.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Her active involvement in technology sharing and teamwork has had a positive ripple effect across our team.",
+      name: "Pengbin Li",
+      designation: "UGC Marketing Specialist",
+      company: "ByteDance",
+      image: pengbin,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Having she in class was an absolute pleasure!",
+      name: "Hua-Yu Sebastian Cherng",
+      designation: "Vice Dean",
+      company: " Diversity, Equity, and Belonging, NYU",
+      image: "https://steinhardt.nyu.edu/sites/default/files/styles/nyu_profile_image/public/2022-07/IMG_8263%20%281%29.jpg?h=305def5a&itok=VHzuDYuI",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Software Art Collection",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Discover my software art collection—a fusion of code, creativity, and imagination.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "openFrameworks",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "software_art",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ShirleyXiang2003/software_art/",
     },
     {
-      name: "Job IT",
+      name: "Ball-collision-generated Music System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Generated random melodies in a fixed scale based on ball collisions within a preset 3D space.",
       tags: [
         {
-          name: "react",
+          name: "Max/MSP",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "phys",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "jit",
           color: "pink-text-gradient",
         },
       ],
@@ -240,21 +237,17 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Motion-controlled Music Generation",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "Max/MSP",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "jit",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,

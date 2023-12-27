@@ -16,10 +16,13 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0,0);
         }}>
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+          <img src={logo} alt="logo" 
+            className='w-9 h-9 object-contain' 
+            style={{ width: '45px', height: '45px', objectFit: 'contain' }} 
+          />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Zhushan &nbsp;
-          <span className='sm:block hidden'>| JS Mastery</span>
+          <span className='sm:block hidden'>| One loves the sunset, when one is so sad.</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
